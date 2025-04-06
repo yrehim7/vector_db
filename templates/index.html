@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semantic Search Engine</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 2rem; }
+        input[type="text"] { width: 70%; padding: 0.5rem; font-size: 1rem; }
+        button { padding: 0.5rem 1rem; font-size: 1rem; }
+        .results { margin-top: 2rem; }
+        .result-item { background: #f2f2f2; margin-bottom: 1rem; padding: 1rem; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>Semantic Search Engine</h1>
+    <form method="POST">
+        <input type="text" name="query" placeholder="Enter your legal query" value="{{ query }}">
+        <button type="submit">Search</button>
+    </form>
+
+    {% if results %}
+    <div class="results">
+        <h2>Results:</h2>
+        {% for result in results %}
+            <div class="result-item">{{ result }}</div>
+        {% endfor %}
+    </div>
+    {% endif %}
+</body>
+</html>
