@@ -1,5 +1,29 @@
-# VectorDB
-
-Vector databases are crucial for semantic search since they let you store and find embeddings—numeric versions of text, images, or other data—quickly and efficiently
-
 ![image](https://github.com/user-attachments/assets/626505d3-0c45-4a54-94b7-576f0d39bb96)
+
+# 🧠 Semantic Legal Search Engine
+
+A minimal and smart semantic search engine for legal documents. Instead of matching just keywords, it finds documents with **similar meaning** using state-of-the-art embeddings and vector search.
+
+---
+
+## 🔍 Features
+
+- ⚡ Fast similarity search with FAISS
+- 💬 Understands meaning using Sentence Transformers (`all-MiniLM-L6-v2`)
+- 🖥️ Simple Flask-based web interface
+- 📄 Easily customizable for your own document dataset
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone this repo
+```bash
+git clone https://github.com/your-username/legal-semantic-search.git
+cd legal-semantic-search
+
+pip install -r requirements.txt
+
+2. Install dependencies
+
+
