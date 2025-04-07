@@ -31,7 +31,18 @@ pip install -r requirements.txt
 
 ### 3. Run the app
 ```bash
-python app.py```
+python app.py
+```
+
+
+### 📁 Project Structure
+```bash
+.
+├── app.py                 # Flask backend
+├── templates/
+│   └── index.html         # Frontend template
+├── requirements.txt       # Python dependencies
+└── README.md              # Project overview
 ```
 
 
