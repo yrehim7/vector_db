@@ -19,12 +19,15 @@ A minimal and smart semantic search engine for legal documents. Instead of match
 
 ### 1. Clone this repo
 ```bash
-git clone https://github.com/your-username/legal-semantic-search.git ```
+git clone https://github.com/your-username/legal-semantic-search.git 
 
+---
 
 ### 2. Install dependencies
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+
+---
 
 ### 3. Run the app
 ```bash
