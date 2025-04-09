@@ -6,44 +6,12 @@ A minimal and smart semantic search engine for legal documents. Instead of match
 
 ---
 
-## 🔍 Features
+##  Features
 
-- ⚡ Fast similarity search with FAISS
-- 💬 Understands meaning using Sentence Transformers (`all-MiniLM-L6-v2`)
-- 🖥️ Simple Flask-based web interface
-- 📄 Easily customizable for your own document dataset
-
----
-
-## 🚀 Quick Start
-
-### 1. Clone this repo
-```bash
-git clone https://github.com/your-username/legal-semantic-search.git 
-```
-
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-
-### 3. Run the app
-```bash
-python app.py
-```
-
-
-### 📁 Project Structure
-```bash
-.
-├── app.py                 # Flask backend
-├── templates/
-│   └── index.html         # Frontend template
-├── requirements.txt       # Python dependencies
-└── README.md              # Project overview
-```
+-  Fast similarity search with FAISS
+-  Understands meaning using Sentence Transformers (`all-MiniLM-L6-v2`)
+-  Simple Flask-based web interface
+-  Easily customizable for your own document dataset
 
 
 
