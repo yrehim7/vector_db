@@ -2,6 +2,9 @@ from flask import Flask, request, render_template
 from sentence_transformers import SentenceTransformer
 import faiss
 import numpy as np
+from werkzeug.utils import secure_filename
+import os
+
 
 app = Flask(__name__)
 
